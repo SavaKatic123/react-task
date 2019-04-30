@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="33" failures="0" time="20.36">
+  <testsuite name="FilterForm.js component" errors="0" failures="0" skipped="0" timestamp="2019-04-30T12:01:33" time="6.34" tests="5">
+    <testcase classname="FilterForm.js component is change start price handler binded to input" name="FilterForm.js component is change start price handler binded to input" time="0.299">
+    </testcase>
+    <testcase classname="FilterForm.js component is correct start price value shown in input" name="FilterForm.js component is correct start price value shown in input" time="0.042">
+    </testcase>
+    <testcase classname="FilterForm.js component is change end price handler binded to input" name="FilterForm.js component is change end price handler binded to input" time="0.026">
+    </testcase>
+    <testcase classname="FilterForm.js component is correct end price value shown in input" name="FilterForm.js component is correct end price value shown in input" time="0.007">
+    </testcase>
+    <testcase classname="FilterForm.js component is submit handler binded to submit" name="FilterForm.js component is submit handler binded to submit" time="0.016">
+    </testcase>
+  </testsuite>
+  <testsuite name="SearchForm.js" errors="0" failures="0" skipped="0" timestamp="2019-04-30T12:01:33" time="6.503" tests="3">
+    <testcase classname="SearchForm.js is change input handler binded to input" name="SearchForm.js is change input handler binded to input" time="0.243">
+    </testcase>
+    <testcase classname="SearchForm.js is submit handler binded to submit" name="SearchForm.js is submit handler binded to submit" time="0.024">
+    </testcase>
+    <testcase classname="SearchForm.js is correct query value shown in input" name="SearchForm.js is correct query value shown in input" time="0.021">
+    </testcase>
+  </testsuite>
+  <testsuite name="ProductList.js component" errors="0" failures="0" skipped="0" timestamp="2019-04-30T12:01:39" time="2.928" tests="1">
+    <testcase classname="ProductList.js component is product shown in list" name="ProductList.js component is product shown in list" time="0.209">
+    </testcase>
+  </testsuite>
+  <testsuite name="verify_pack.search.js" errors="0" failures="0" skipped="0" timestamp="2019-04-30T12:01:39" time="3.095" tests="17">
+    <testcase classname="verify_pack.search.js products is an array" name="verify_pack.search.js products is an array" time="0.013">
+    </testcase>
+    <testcase classname="verify_pack.search.js products length is 30" name="verify_pack.search.js products length is 30" time="0.001">
+    </testcase>
+    <testcase classname="verify_pack.search.js is correct json imported" name="verify_pack.search.js is correct json imported" time="0.006">
+    </testcase>
+    <testcase classname="verify_pack.search.js query is of type string" name="verify_pack.search.js query is of type string" time="0.002">
+    </testcase>
+    <testcase classname="verify_pack.search.js query is an empty string" name="verify_pack.search.js query is an empty string" time="0.001">
+    </testcase>
+    <testcase classname="verify_pack.search.js from is of type string" name="verify_pack.search.js from is of type string" time="0.001">
+    </testcase>
+    <testcase classname="verify_pack.search.js from is an empty string" name="verify_pack.search.js from is an empty string" time="0.087">
+    </testcase>
+    <testcase classname="verify_pack.search.js to is of type string" name="verify_pack.search.js to is of type string" time="0.004">
+    </testcase>
+    <testcase classname="verify_pack.search.js to is an empty string" name="verify_pack.search.js to is an empty string" time="0.001">
+    </testcase>
+    <testcase classname="verify_pack.search.js displayedProducts is an array" name="verify_pack.search.js displayedProducts is an array" time="0.001">
+    </testcase>
+    <testcase classname="verify_pack.search.js displayedProducts is empty" name="verify_pack.search.js displayedProducts is empty" time="0">
+    </testcase>
+    <testcase classname="verify_pack.search.js is search query searching exact matches correctly" name="verify_pack.search.js is search query searching exact matches correctly" time="0.008">
+    </testcase>
+    <testcase classname="verify_pack.search.js is search query a substring of attribute" name="verify_pack.search.js is search query a substring of attribute" time="0.008">
+    </testcase>
+    <testcase classname="verify_pack.search.js is search query case insensitive" name="verify_pack.search.js is search query case insensitive" time="0.017">
+    </testcase>
+    <testcase classname="verify_pack.search.js is filter by price correct" name="verify_pack.search.js is filter by price correct" time="0.006">
+    </testcase>
+    <testcase classname="verify_pack.search.js is search ignoring invalid values" name="verify_pack.search.js is search ignoring invalid values" time="0.004">
+    </testcase>
+    <testcase classname="verify_pack.search.js is filter ignoring invalid values" name="verify_pack.search.js is filter ignoring invalid values" time="0.009">
+    </testcase>
+  </testsuite>
+  <testsuite name="Search.js" errors="0" failures="0" skipped="0" timestamp="2019-04-30T12:01:43" time="1.63" tests="7">
+    <testcase classname="Search.js products are imported" name="Search.js products are imported" time="0.005">
+    </testcase>
+    <testcase classname="Search.js is search query searching exact matches correctly" name="Search.js is search query searching exact matches correctly" time="0.006">
+    </testcase>
+    <testcase classname="Search.js is search query a substring of attribute" name="Search.js is search query a substring of attribute" time="0.013">
+    </testcase>
+    <testcase classname="Search.js is filter by price correct" name="Search.js is filter by price correct" time="0.006">
+    </testcase>
+    <testcase classname="Search.js is search query case insensitive" name="Search.js is search query case insensitive" time="0.018">
+    </testcase>
+    <testcase classname="Search.js is empty query returning whole array" name="Search.js is empty query returning whole array" time="0.003">
+    </testcase>
+    <testcase classname="Search.js is incorrect filter range returning whole products array" name="Search.js is incorrect filter range returning whole products array" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>
